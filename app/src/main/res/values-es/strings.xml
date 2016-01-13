@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Work</string>
+    <string name="lugares">LUGARES</string>
+    <string name="salir">Salir</string>
+    <string name="info">Información</string>
+    <string name="opciones">Opciones</string>
+    <string name="acerca_de"><b>Curso Android - Ejercicio final</b>\n\n
+		Gestión de lugares personales.\n
+		email: engivi1@gmail.com\n\n
+		(c) 2015 Enric. All rights reserved\n</string>
+    <string name="preg_salir">¿Quieres salir?</string>
+    <string name="nombre">Nombre: </string>
+    <string name="descripcion">Descripción: </string>
+    <string name="foto">Seleccionar fotografía</string>
+    <string name="editarfoto">Editar fotografía</string>
+    <string name="fotografia">Fotografía: </string>
+    <string name="crear">Crear</string>
+    <string name="guardar">Guardar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="titulo_lista">Lista de lugares</string>
+    <string name="pulsar">Pulsar prolongadamente para insertar un lugar</string>
+    <string name="editar">Editar</string>
+
+
+    <string name="internet">Imposible conectarse a internet</string>
+
+
+    <!-- Toast -->
+    <string name="lugar_creado">Lugar creado</string>
+    <string name="lugar_modificado">Lugar modificado</string>
+    <string name="lugar_eliminado">Lugar eliminado</string>
+    <string name="completar">Completar los campos</string>
+
+    <!-- Menu -->
+    <string name="menuTitulo">Lugares personales</string>
+
+
+
+    <!-- preferencias -->
+    <string name="language">Idioma</string>
+    <string name="preferencias">Preferencencias</string>
+    <string name="pref_skyn_title">Apariencia</string>
+    <string name="pref_idioma_title">Idioma</string>
+    <string name="pref_idioma_summary">Elige el idioma</string>
+    <string name="pref_idioma_dialogtitle">Elige idioma</string>
+
+
+    <string-array name="pref_idioma_entryvalues">
+        <item>en</item>
+        <item>es</item>
+    </string-array>
+
+    <string-array name="pref_idioma_entries">
+        <item>Ingles</item>
+        <item>Español</item>
+    </string-array>
+
+    <string name="no_lugares">No hay datos disponibles</string>
+
+
+</resources>

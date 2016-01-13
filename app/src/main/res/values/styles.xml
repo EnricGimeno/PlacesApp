@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+        <style name="Titulo"
+               parent="@android:style/TextAppearance.Large">
+            <item name="android:textStyle">bold</item>
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:padding">5dip</item>
+            <item name="android:gravity">center_horizontal</item>
+            <item name="android:shadowColor">#FF0000</item>
+            <item name="android:shadowDx">1.0</item>
+            <item name="android:shadowDy">1.0</item>
+            <item name="android:shadowRadius">3.0</item>
+            <item name="android:textSize">50dp</item>
+
+        </style>
+
+    <style name="PreferencesTheme" parent="android:Theme.Light">
+        <item name="android:windowBackground">@drawable/fondo_azul</item>
+    </style>
+
+
+    </resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+    <item android:id="@+id/menu_info"
+          android:title="@string/info"
+          android:icon="@drawable/about"
+          android:showAsAction="always|withText"/>
+
+
+
+
+
+    <item android:id="@+id/menu_options"
+          android:title="@string/opciones"
+          android:icon="@drawable/options"
+          android:showAsAction="always|withText">
+
+        <menu>
+            <item android:id="@+id/SubMnuPreferencias"
+                  android:title="@string/preferencias" />
+            <item android:id="@+id/SubMnuSalir"
+                  android:title="@string/salir" />
+        </menu>
+
+
+
+    </item>
+
+
+
+</menu>

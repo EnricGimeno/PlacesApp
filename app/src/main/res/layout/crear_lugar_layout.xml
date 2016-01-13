@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:background="@drawable/fondo_azul">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TableLayout
+             android:orientation="vertical"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:padding="10dp"
+             android:stretchColumns="1"
+             >
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtNombre1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="@string/descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edtDescricion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="4"
+            android:inputType="textMultiLine"
+            android:maxWidth="0dp"
+            />
+
+    </TableRow>
+
+
+    <Button
+            android:id="@+id/btnSeleccionarFoto"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foto"
+        />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:text="@string/fotografia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ImgViewImagen1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:scaleType="centerInside" />
+
+    <Button
+        android:id="@+id/btnCrear1"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/crear"
+        />
+
+</TableLayout>
+
+</ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+
